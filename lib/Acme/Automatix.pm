@@ -1,4 +1,4 @@
-package Acme::Automatix;
+package Acme::Automatiks;
 
 use 5.006;
 use strict;
