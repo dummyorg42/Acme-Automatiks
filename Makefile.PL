@@ -4,16 +4,16 @@ use warnings;
 use ExtUtils::MakeMaker;
 
 my %WriteMakefileArgs = (
-    NAME             => 'Acme::Automatix',
+    NAME             => 'Acme::Automatiks',
     AUTHOR           => q{Thibault Duponchelle <thibault.duponchelle@gmail.com>},
-    VERSION_FROM     => 'lib/Acme/Automatix.pm',
-    ABSTRACT_FROM    => 'lib/Acme/Automatix.pm',
+    VERSION_FROM     => 'lib/Acme/Automatiks.pm',
+    ABSTRACT_FROM    => 'lib/Acme/Automatiks.pm',
     LICENSE          => 'artistic_2',
     MIN_PERL_VERSION => '5.006',
     META_MERGE => {
         resources => {
-            bugtracker => 'https://github.com/thibaultduponchelle/Acme-Automatix/issues',
-            repository => 'https://github.com/thibaultduponchelle/Acme-Automatix',
+            bugtracker => 'https://github.com/dummyorg42/Acme-Automatiks/issues',
+            repository => 'https://github.com/dummyorg42/Acme-Automatiks',
         },
     },
     CONFIGURE_REQUIRES => {
@@ -27,7 +27,7 @@ my %WriteMakefileArgs = (
         #'Foo::Bar::Module' => '5.0401',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
-    clean => { FILES => 'Acme-Automatix-*' },
+    clean => { FILES => 'Acme-Automatiks-*' },
 );
 
 # Compatibility with old versions of ExtUtils::MakeMaker
